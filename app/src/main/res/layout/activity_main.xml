@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#C9D4FA">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textSize="60sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"
+        android:layout_marginBottom="70sp"
+        android:textColor="#606060"
+        android:text="Fluig" />
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="40sp"
+        android:textColor="#000"
+        android:text="Bem-vindo ao Fluig" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Antes de Começar, adicione sua conta do fluig" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="30sp"
+        android:paddingHorizontal="80sp"
+        android:background="#639E1E"
+        android:textColor="#ffff"
+        android:text="Minha conta Fluig" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"
+        android:paddingHorizontal="94sp"
+        android:background="#ffff"
+        android:textColor="#639E1E"
+        android:text="Demonstração" />
+
+
+</LinearLayout>
