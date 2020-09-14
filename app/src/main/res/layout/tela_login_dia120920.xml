@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#D8D8D8">
+
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#606060"
+        android:text="Log in"/>
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textColor="#515151"
+        android:text="Email Address"/>
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textColor="#515151"
+        android:text="Password"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#606060"
+        android:textAllCaps="true"
+        android:text="Or"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textSize="23dp"
+        android:background="#39428f"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:text="Login whith Facebook"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textSize="23dp"
+        android:background="#46d0fe"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:text="Login whith Twtter"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#606060"
+        android:text="Need an account"/>
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="23dp"
+        android:background="#ff322e"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:text="Sing Up Now"/>
+
+
+</LinearLayout>
