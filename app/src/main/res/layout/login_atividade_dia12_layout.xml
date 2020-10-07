@@ -8,7 +8,18 @@
     tools:context=".MainActivity"
     android:background="#D8D8D8">
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+        />
 
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gota"
+        android:layout_marginBottom="10dp"/>
 
     <TextView
         android:layout_gravity="center_horizontal"
